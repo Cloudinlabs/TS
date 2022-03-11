@@ -8,10 +8,9 @@
       <div class="container">
         <a class="navbar-brand" href="index-aster-v1.html">
           <img
-            class="logo logo-dark"
+            class="logo logo-dark logo-align"
             alt="logo"
             src="../../assets/images/TechSwap Logo.svg"
-            style="height: 60px; padding-top: 20px"
           />
         </a>
         <button
@@ -32,8 +31,8 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarTogglerDemo01"
         >
-          <ul class="navbar-nav">
-            <li class="nav-item">
+          <ul class="navbar-nav" style="display: flex; flex-wrap: nowrap">
+            <li class="nav-item margin">
               <a class="nav-link" [routerLink]="['/home']">Home</a>
               <!-- <ul class="dropdown-menu">
                       <li>
@@ -61,16 +60,16 @@
             </li>
             <!-- dropdown -->
 
-            <li class="nav-item">
+            <li class="nav-item margin">
               <a class="nav-link" href="" [routerLink]="['/about']">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item margin">
               <a class="nav-link" href="" [routerLink]="['/feature']"
                 >Feature</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link isActive" href="" [routerLink]="['/contact']"
+              <a class="nav-link" href="" [routerLink]="['/contact']"
                 >Contact</a
               >
             </li>
