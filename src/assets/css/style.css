@@ -196,7 +196,15 @@ ul li,
 ol li {
   list-style: none;
 }
-
+/* li {
+  min-height: 45px;
+  border-bottom: 1px black solid;
+}
+li div {
+  height: 45px;
+  display: table-cell;
+  vertical-align: middle;
+} */
 .relative {
   position: relative;
 }
