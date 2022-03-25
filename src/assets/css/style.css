@@ -110,7 +110,8 @@ body {
   font-size: 14px;
   line-height: 1.875;
   font-weight: normal;
-  color: #6f7c8a;
+  /* color: #6f7c8a; */
+  color: #211c1d;
   background-color: #f7fbfd;
   position: relative;
   min-width: 320px;
