@@ -870,7 +870,7 @@ textarea:focus {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #606985;
+  color: #211c1d;
   font-size: 0.875em;
   line-height: 2.5;
   font-family: "Poppins";
@@ -2715,7 +2715,7 @@ label.error {
   text-align: center;
 }
 .footer-widget a {
-  color: #6f7c8a;
+  color: #211c1d;
 }
 .footer-widget a:hover {
   color: #3498db;
