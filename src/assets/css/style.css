@@ -3568,4 +3568,7 @@ label.error {
     top: 55%;
   }
 }
+.no-bg::before {
+  background: none !important;
+}
 /** END */
